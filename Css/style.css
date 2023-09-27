@@ -4,6 +4,7 @@
     padding: 0PX;
     box-sizing: border-box;
     width: auto;
+    font-family: 'Poppins', sans-serif;
 }
 .Container{
     display: flex;
@@ -136,7 +137,7 @@
   color: #000;
 }
 .arrivals img{
-  width: 250px;
+  width: 280px;
   height: 60vh;
 }
 .arrivalImage{
@@ -329,5 +330,62 @@
   border: none;
 }
 .getAppButton :hover{
+  transform: scale(1.1);
+}
+.community{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 623px;
+  background-color: #e5c743d7;
+}
+.communityH1{
+  text-align: center;
+  font-size: 30px;
+  width: 70%;
+  font-weight: 900;
+}
+.community p{
+  font-size: 25px;
+}
+.communityEmail{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #FFF;
+  height: 60px;
+  width: 574px;
+  border-radius: 10px;
+}
+.communityInput{
+  border: none;
+  width: 400px;
+  height: 25px;
+  font-size: 24px;
+  font-weight: 200;
+  padding: 1rem;
+ background: none;
+ border-radius: 10px;
+}
+.community button{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  width: 120px;
+  height: 45px;
+  margin-right: 10px;
+  font-size: 24px;
+  font-weight: 300;
+  padding: 0.5rem;
+  color: #fff;
+ background: #000;
+ border-radius: 10px;
+}
+.community button:hover{
+  color: #fff;
+  background: linear-gradient(to top left, #000000, #fffefd);
+  border-radius: 10px;
   transform: scale(1.1);
 }
