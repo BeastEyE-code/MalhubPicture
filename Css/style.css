@@ -1,7 +1,7 @@
-<style>@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');</style>
 *{
-    margin: 0PX;
-    padding: 0PX;
+  margin: 0px;
+  padding: 0px;
+  <style>@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');</style>
     box-sizing: border-box;
     width: auto;
     font-family: 'Poppins', sans-serif;
@@ -34,9 +34,6 @@
     color: black;
     text-decoration: none;
   }
-  .nav-links a img {
-    margin-right: 5px;
-  }
   .nav-links a:hover{
     color: #8e8888e4;
     transform: scale(1.1);
@@ -58,13 +55,15 @@
   }
   .container{
     display: flex;
+    justify-content: space-between;
+    align-items: center;
     height: 80VH;
     width: 80%;
    background: #F4F6F5;
     color: #000;
     border-radius: 50px;
     font-family: 'Poppins', sans-serif;
-    line-height: 10px;
+    line-height: 70px;
   }
   .containerClasses{
     display: flex;
@@ -74,6 +73,7 @@
     width: 80%;
     font-size: 60px;
     margin-left: 120PX;
+    line-height: 70px;
   }
   .container p{
     width: 100%;
@@ -81,18 +81,19 @@
     margin-left: 120PX;
   }
   .container img{
-    width: 70%;
-    margin-top: 11.9rem;
+    display: flex;
+    width: 50%;
+    margin-top: 8.5rem;
     margin-left: 150px;
   }
   .white{
     color: #000;
     background-color: #fff;
-    padding: 30px 0px;
+   
   }
   .yellow{
     background-color: #E6C744;
-    padding: 30px 0px;
+    
   }
   .containerClasses button {
     padding: 5px 10px;
@@ -115,19 +116,18 @@
     color: white;
     background: #EBD96B;
     width: 100%;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     height: 15vh;
     margin-top: 3rem;
   }
   .logoContainer img{
-    margin-left: 5px;
-    margin-right: 5px;
+    margin-left: 0px;
+  margin-right: 0px;
   }
 .arrivals{
   display: flex;
   flex-direction: column;
-  width: 100%;
   margin-top: 3rem;
 }
 
@@ -139,6 +139,7 @@
 .arrivals img{
   width: 280px;
   height: 60vh;
+  border-radius: 2rem;
 }
 .arrivalImage{
   margin-bottom: 0.3rem;
@@ -197,7 +198,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  width: 100;
+  width: 100%;
   background: linear-gradient(1.32deg, #E0C340 0.13%, #DFC23E 3.97%, #E1C441 7.2%, #E3C743 10.13%, #E4C542 12.98%, #E6C744 15.99%, #E7C845 19.52%, #E5C643 23.96%, #E6C945 30.43%, #E3C743 36.49%, #E9CA48 42.49%, #EDCE49 49.35%, #F0D44C 55.42%, #F4D84F 61.43%, #F6DA52 65.74%, #F7DB53 72.23%, #F9DD55 77.43%, #F9DF56 83.84%, #FAE157 91.52%, #F9DF56 97.87%);
   margin-top: 2rem;
   margin-bottom: 2rem;
@@ -210,16 +211,17 @@
 }
 .paydayText .white{
   width: 80%;
-  padding: 50px 0px;
+  padding: 0px 0px;
 }
 .paydayH1{
   line-height: 0px;
 }
 .paydayText h1{
   font-size: 111.61px;
+  line-height: 170px;
 }
 .paydayP{
-  line-height: 0px;
+  line-height: 50px;
 }
 .paydayText p{
   font-size: 30.04px;
@@ -227,7 +229,7 @@
   font-weight: 500;
 }
 .paydayH3P{
-  line-height: 10px;
+  line-height: 50px;
 }
 .paydayText h3{
  font-size: 36.04px; 
@@ -434,3 +436,422 @@
   font-weight: 200;
   color: #D9D9D9;
 }
+@media (max-width: 1430px){
+  body{
+    overflow-x: hidden;
+  }
+  .navbar{
+    padding: 2px 0px;
+    width: 100%;
+    margin-bottom: 1rem;
+    background: none;
+  }
+  .container{
+    background: none;
+  }
+  .container img{
+    margin-bottom: 6rem;
+    border-radius: 100rem;
+  }
+  .container h1{
+    width: 50%;
+    font-size: 60px;
+    margin-left: 100PX;
+  }
+  .container p{
+    width: 80%;
+    line-height: 2rem;
+    font-size: 20px;
+    margin-left: 100PX;
+  }
+  .arrivals{
+    display: flex;
+    flex-direction: column;
+    margin-top: 3rem;
+  }
+  .arrivalImage{
+    margin-left: 0px;
+  }
+  .arrivals h1{
+    margin-left: 0rem;
+  }
+  .card-details{
+    margin-left: 0px;
+  }
+}
+
+@media (max-width: 1280px) {
+  body{
+    overflow-x: hidden;
+  }
+  .navbar{
+    padding: 2px 0px;
+    width: 100%;
+    margin-bottom: 1rem;
+    background: none;
+  }
+  .container{
+    background: none;
+  }
+  .container h1{
+    width: 50%;
+    font-size: 60px;
+    margin-left: 100PX;
+  }
+  .container p{
+    width: 80%;
+    line-height: 2rem;
+    font-size: 20px;
+    margin-left: 100PX;
+  }
+  .arrivals h1{
+    margin-left: 0rem;
+  }
+}
+
+@media (max-width: 1024px) {
+  body{
+    overflow-x: hidden;
+  }
+  .navbar{
+    padding: 2px 0px;
+    width: 80%;
+    justify-content: center;
+    margin-bottom: 1rem;
+    background: none;
+  }
+  .nav-links {
+    display: flex;
+    gap: 20px;
+  }
+  .navbar button {
+    padding: 5px 20px;
+}
+.container{
+  background: none;
+  width: 100%;
+  align-items: end;
+}
+.container h1{
+  width: 50%;
+  font-size: 60px;
+  margin-left: 50PX;
+}
+.container p{
+  width: 80%;
+  line-height: 2rem;
+  font-size: 20px;
+  margin-left: 50PX;
+}
+.container button{
+  margin-left: 80px;
+}
+.logoContainer img{
+  margin-left: 0px;
+  margin-right: 0px;
+}
+.arrivals img{
+  width: 350px;
+  height: 70vh;
+}
+.card-wrap {
+  display: flex;
+  flex-direction: column;
+}
+.card-form {
+  display: flex;
+  flex-direction: column;
+  width: 350px;
+}
+.card-form p{
+  margin-right: 14rem;
+}
+.arrivals button{
+  width: 100%;
+  padding: 10px 0px;
+}
+.payday H1{
+  font-size: 80px;
+}
+.payday p{
+  font-size: 20px;
+}
+.payday h3{
+  font-size: 30px;
+}
+.youngFav{
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+ margin-left: 10rem;
+}
+.youngFavText{
+  margin-left: 10rem;
+}
+.getApp{
+  width: 100%;
+}
+.getApp img{
+  width: 70%;
+}
+.getAppText{
+  margin-left: 10rem;
+  margin-bottom: 2rem;
+  width: 100%;
+  line-height: 10px;
+}
+.getApp h1{
+  font-size: 40px;
+}
+.getApp p{
+  font-size: 20px;
+}
+.getApp button{
+  background: none;
+  width: 40%;
+}
+.baseline{
+  display: flex;
+  flex-direction: column;
+  margin-top: 2rem;
+  gap: 10px;
+}
+}
+
+@media (max-width: 767px) {
+  body{
+    overflow-x: hidden;
+  
+  }
+  .navbar{
+    padding: 2px 0px;
+    width: 100%;
+    justify-content: center;
+    margin-left: 15rem;
+    margin-bottom: 1rem;
+    background: none;
+  }
+  .nav-links {
+    display: flex;
+    gap: 20px;
+  }
+  .navbar button {
+    padding: 5px 20px;
+}
+.container{
+  background: none;
+  width: 100%;
+  align-items: end;
+}
+.container h1{
+  width: 50%;
+  font-size: 50px;
+  margin-left: 50PX;
+}
+.container p{
+  width: 80%;
+  line-height: 2rem;
+  font-size: 20px;
+  margin-left: 50PX;
+}
+.container button{
+  margin-left: 80px;
+}
+.logoContainer img{
+  margin-left: 0px;
+  margin-right: 0px;
+}
+.arrivals img{
+  width: 350px;
+  height: 70vh;
+}
+.card-wrap {
+  display: flex;
+  flex-direction: column;
+}
+.card-form {
+  display: flex;
+  flex-direction: column;
+  width: 350px;
+}
+.card-form p{
+  margin-right: 14rem;
+}
+.arrivals button{
+  width: 100%;
+  padding: 10px 0px;
+}
+.payday H1{
+  font-size: 80px;
+}
+.payday p{
+  font-size: 20px;
+}
+.payday h3{
+  font-size: 30px;
+}
+.youngFav{
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+ margin-left: 10rem;
+}
+.youngFavText{
+  margin-left: 10rem;
+}
+.getApp{
+  width: 100%;
+}
+.getApp img{
+  width: 70%;
+}
+.getAppText{
+  margin-left: 10rem;
+  margin-bottom: 2rem;
+  width: 100%;
+  line-height: 10px;
+}
+.getApp h1{
+  font-size: 40px;
+}
+.getApp p{
+  font-size: 20px;
+}
+.getApp button{
+  background: none;
+  width: 40%;
+}
+.baseline{
+  display: flex;
+  flex-direction: column;
+  margin-top: 2rem;
+  gap: 10px;
+}
+}
+
+@media (max-width: 480px) {
+  body{
+    overflow-x: hidden;
+  
+  }
+  .navbar{
+    padding: 2px 0px;
+    width: 100%;
+    align-items: center;
+    margin-left: 15rem;
+    margin-bottom: 1rem;
+    background: none;
+  }
+  .nav-links {
+    display: flex;
+    gap: 20px;
+  }
+  .navbar button {
+    padding: 5px 20px;
+}
+.container{
+  background: none;
+  width: 100%;
+  align-items: end;
+}
+.container h1{
+  width: 50%;
+  font-size: 50px;
+  margin-left: 50PX;
+}
+.container p{
+  width: 80%;
+  line-height: 2rem;
+  font-size: 20px;
+  margin-left: 50PX;
+}
+.container button{
+  margin-left: 80px;
+}
+.logoContainer{
+  display: flex;
+    color: white;
+    background: none;
+    justify-content: center;
+    align-items: center;
+    height: 15vh;
+    margin-top: 3rem;
+}
+.logoContainer img{
+  margin-left: 0px;
+  margin-right: 0px;
+  width: 30%;
+}
+.arrivals img{
+  width: 350px;
+  height: 70vh;
+}
+.card-wrap {
+  display: flex;
+  flex-direction: column;
+}
+.card-form {
+  display: flex;
+  flex-direction: column;
+  width: 350px;
+}
+.card-form p{
+  margin-right: 14rem;
+}
+.arrivals button{
+  width: 100%;
+  padding: 10px 0px;
+}
+.payday H1{
+  font-size: 80px;
+}
+.payday p{
+  font-size: 20px;
+}
+.payday h3{
+  font-size: 30px;
+}
+.youngFav{
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+ margin-left: 10rem;
+}
+.youngFavText{
+  margin-left: 10rem;
+}
+.getApp{
+  width: 100%;
+}
+.getApp img{
+  width: 70%;
+}
+.getAppText{
+  margin-left: 10rem;
+  margin-bottom: 2rem;
+  width: 100%;
+  line-height: 10px;
+}
+.getApp h1{
+  font-size: 40px;
+}
+.getApp p{
+  font-size: 20px;
+}
+.getApp button{
+  background: none;
+  width: 40%;
+}
+.baseline{
+  display: flex;
+  flex-direction: column;
+  margin-top: 2rem;
+  gap: 10px;
+}
+}
+
+
+
+
+
+
