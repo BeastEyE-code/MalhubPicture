@@ -723,7 +723,6 @@
 @media (max-width: 480px) {
   body{
     overflow-x: hidden;
-  background-color: #ad2323;
   }
   .navbar{
     display: flex;
